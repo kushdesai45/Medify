@@ -1,0 +1,46 @@
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+}
+
+.textContainer{
+    width: 380px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heroImg{
+    width: 380px;
+    height: 350px;
+}
+
+.textTitle1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.textTitle2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textTitle3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5C6169;
+}
+
+.home-btn{
+    background-color: #2AA8FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: fit-content;
+}
